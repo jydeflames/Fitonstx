@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.assets-pool]
+path = 'contracts/assets-pool.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.fit-token]
 path = 'contracts/fit-token.clar'
 clarity_version = 3
