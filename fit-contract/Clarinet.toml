@@ -15,6 +15,11 @@ path = 'contracts/fit-token.clar'
 clarity_version = 3
 epoch = 3.0
 
+[contracts.governance-daoi]
+path = 'contracts/governance-daoi.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.user-identity]
 path = 'contracts/user-identity.clar'
 clarity_version = 3
