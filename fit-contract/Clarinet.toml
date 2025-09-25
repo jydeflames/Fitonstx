@@ -1,31 +1,19 @@
 [project]
-name = 'fit-contract'
-description = ''
+name = "fit-contract"
 authors = []
+description = ""
 telemetry = true
-cache_dir = '.\.cache'
 requirements = []
-[contracts.assets-pool]
-path = 'contracts/assets-pool.clar'
-clarity_version = 3
-epoch = 3.0
+[contracts.nft-badges]
+path = "contracts/nft-badges.clar"
+depends_on = []
 
-[contracts.fit-token]
-path = 'contracts/fit-token.clar'
-clarity_version = 3
-epoch = 3.0
+[repl]
+costs_version = 2
+parser_version = 2
 
-[contracts.governance-daoi]
-path = 'contracts/governance-daoi.clar'
-clarity_version = 3
-epoch = 3.0
-
-[contracts.user-identity]
-path = 'contracts/user-identity.clar'
-clarity_version = 3
-epoch = 3.0
 [repl.analysis]
-passes = ['check_checker']
+passes = ["check_checker"]
 
 [repl.analysis.check_checker]
 strict = false
